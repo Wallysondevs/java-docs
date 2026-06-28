@@ -1,0 +1,2366 @@
+{
+ "sections": [
+  {
+   "id": "tutorials",
+   "label": "Tutoriais (dev.java)",
+   "icon": "GraduationCap",
+   "groups": [
+    {
+     "label": "Visao Geral",
+     "items": [
+      {
+       "path": "tutorials/annotations.md",
+       "label": "Anotações"
+      },
+      {
+       "path": "tutorials/classes-objects.md",
+       "label": "Classes e Objetos"
+      },
+      {
+       "path": "tutorials/date-time.md",
+       "label": "The Date Time API"
+      },
+      {
+       "path": "tutorials/debugging.md",
+       "label": "Depuração em Java"
+      },
+      {
+       "path": "tutorials/eclipse.md",
+       "label": "Construindo uma Aplicação Java no Eclipse IDE"
+      },
+      {
+       "path": "tutorials/exceptions.md",
+       "label": "Exceções"
+      },
+      {
+       "path": "tutorials/ffm.md",
+       "label": "The Foreign Function and Memory API"
+      },
+      {
+       "path": "tutorials/generics.md",
+       "label": "Genéricos"
+      },
+      {
+       "path": "tutorials/getting-started.md",
+       "label": "Começando com Java"
+      },
+      {
+       "path": "tutorials/inheritance.md",
+       "label": "Herança"
+      },
+      {
+       "path": "tutorials/intellij-idea.md",
+       "label": "Construindo uma aplicação Java no IntelliJ IDEA"
+      },
+      {
+       "path": "tutorials/interfaces.md",
+       "label": "Interfaces"
+      },
+      {
+       "path": "tutorials/java-io.md",
+       "label": "A API Java I/O"
+      },
+      {
+       "path": "tutorials/javafx-animations.md",
+       "label": "Introdução às animações JavaFX"
+      },
+      {
+       "path": "tutorials/jlink.md",
+       "label": "Criando Imagens de Runtime e de Aplicação com JLink"
+      },
+      {
+       "path": "tutorials/jshell-tool.md",
+       "label": "JShell - A Ferramenta Shell do Java"
+      },
+      {
+       "path": "tutorials/lambdas.md",
+       "label": "Expressões Lambda"
+      },
+      {
+       "path": "tutorials/language-basics.md",
+       "label": "Fundamentos da Linguagem Java"
+      },
+      {
+       "path": "tutorials/launch-simple-source-code-programs.md",
+       "label": "Lançando Programas Simples de Código-Fonte"
+      },
+      {
+       "path": "tutorials/learn.md",
+       "label": "Aprenda Java"
+      },
+      {
+       "path": "tutorials/modernio.md",
+       "label": "Tarefas Comuns de E/S no Java Moderno"
+      },
+      {
+       "path": "tutorials/modules.md",
+       "label": "Módulos"
+      },
+      {
+       "path": "tutorials/numbers-strings.md",
+       "label": "Números e Strings"
+      },
+      {
+       "path": "tutorials/oop.md",
+       "label": "Objetos, Classes, Interfaces, Pacotes e Herança"
+      },
+      {
+       "path": "tutorials/packages.md",
+       "label": "Pacotes"
+      },
+      {
+       "path": "tutorials/pattern-matching.md",
+       "label": "Usando o Pattern Matching"
+      },
+      {
+       "path": "tutorials/records.md",
+       "label": "Usando Records para Modelar Dados Imutáveis"
+      },
+      {
+       "path": "tutorials/refactoring-to-functional-style.md",
+       "label": "Refatorando do Estilo Imperativo para o Estilo Funcional"
+      },
+      {
+       "path": "tutorials/reflection.md",
+       "label": "A API de Reflection"
+      },
+      {
+       "path": "tutorials/regex.md",
+       "label": "Expressões Regulares"
+      },
+      {
+       "path": "tutorials/security.md",
+       "label": "Fundamentos de Segurança usando Bibliotecas JDK"
+      },
+      {
+       "path": "tutorials/vscode-java.md",
+       "label": "Construindo uma aplicação Java no Visual Studio Code"
+      }
+     ]
+    },
+    {
+     "label": "API Core",
+     "items": [
+      {
+       "path": "tutorials/api/collections-framework.md",
+       "label": "O Collections Framework"
+      },
+      {
+       "path": "tutorials/api/collections-framework/arraylist-vs-linkedlist.md",
+       "label": "Escolhendo a Implementação Correta Entre ArrayList e LinkedList"
+      },
+      {
+       "path": "tutorials/api/collections-framework/choosing-keys.md",
+       "label": "Escolhendo Tipos Imutáveis para Sua Chave"
+      },
+      {
+       "path": "tutorials/api/collections-framework/collection-interface.md",
+       "label": "Armazenando Elementos em uma Collection"
+      },
+      {
+       "path": "tutorials/api/collections-framework/factory-methods.md",
+       "label": "Criando e Processando Dados com os Métodos de Fábrica de Collections"
+      },
+      {
+       "path": "tutorials/api/collections-framework/intro.md",
+       "label": "Armazenando Dados Usando o Collections Framework"
+      },
+      {
+       "path": "tutorials/api/collections-framework/iterating.md",
+       "label": "Iterando sobre os Elementos de uma Collection"
+      },
+      {
+       "path": "tutorials/api/collections-framework/lists.md",
+       "label": "Estendendo Collection com List"
+      },
+      {
+       "path": "tutorials/api/collections-framework/maps-and-lambdas.md",
+       "label": "Manipulando Valores de Map com Expressões Lambda"
+      },
+      {
+       "path": "tutorials/api/collections-framework/maps.md",
+       "label": "Usando Mapas para Armazenar Pares Chave-Valor"
+      },
+      {
+       "path": "tutorials/api/collections-framework/organization.md",
+       "label": "Conhecendo a Hierarquia de Coleções"
+      },
+      {
+       "path": "tutorials/api/collections-framework/sets.md",
+       "label": "Estendendo Collection com Set, SortedSet e NavigableSet"
+      },
+      {
+       "path": "tutorials/api/collections-framework/sorted-maps.md",
+       "label": "Mantendo Chaves Ordenadas com SortedMap e NavigableMap"
+      },
+      {
+       "path": "tutorials/api/collections-framework/stacks-queues.md",
+       "label": "Armazenando Elementos em Pilhas e Filas"
+      },
+      {
+       "path": "tutorials/api/collections-framework/working-with-keys-and-values.md",
+       "label": "Gerenciando o Conteúdo de um Map"
+      },
+      {
+       "path": "tutorials/api/streams.md",
+       "label": "A API Stream"
+      },
+      {
+       "path": "tutorials/api/streams/characteristics.md",
+       "label": "Encontrando as Características de um Stream"
+      },
+      {
+       "path": "tutorials/api/streams/collector-interface.md",
+       "label": "Implementando a Interface Collector"
+      },
+      {
+       "path": "tutorials/api/streams/creating.md",
+       "label": "Criando Streams"
+      },
+      {
+       "path": "tutorials/api/streams/custom-collectors.md",
+       "label": "Criando Seu Próprio Collector"
+      },
+      {
+       "path": "tutorials/api/streams/gatherers.md",
+       "label": "gatherers"
+      },
+      {
+       "path": "tutorials/api/streams/intermediate-operation.md",
+       "label": "Adicionando Operações Intermediárias a um Stream"
+      },
+      {
+       "path": "tutorials/api/streams/map-filter-reduce.md",
+       "label": "Processando Dados em Memória Usando a Stream API"
+      },
+      {
+       "path": "tutorials/api/streams/optionals.md",
+       "label": "Usando Optionals"
+      },
+      {
+       "path": "tutorials/api/streams/parallel-streams.md",
+       "label": "Paralelizando Streams"
+      },
+      {
+       "path": "tutorials/api/streams/reducing.md",
+       "label": "reducing"
+      },
+      {
+       "path": "tutorials/api/streams/terminal-operations.md",
+       "label": "Adicionando uma Operação Terminal a um Stream"
+      },
+      {
+       "path": "tutorials/api/streams/using-collectors.md",
+       "label": "Usando um Collector como Operação Terminal"
+      }
+     ]
+    },
+    {
+     "label": "Classes e Objetos",
+     "items": [
+      {
+       "path": "tutorials/classes-objects/calling-methods-constructors.md",
+       "label": "Chamando Métodos e Construtores"
+      },
+      {
+       "path": "tutorials/classes-objects/creating-classes.md",
+       "label": "Criando Classes"
+      },
+      {
+       "path": "tutorials/classes-objects/creating-objects.md",
+       "label": "Criando e Usando Objetos"
+      },
+      {
+       "path": "tutorials/classes-objects/defining-constructors.md",
+       "label": "Fornecendo Construtores para suas Classes"
+      },
+      {
+       "path": "tutorials/classes-objects/defining-methods.md",
+       "label": "Definindo Métodos"
+      },
+      {
+       "path": "tutorials/classes-objects/design-best-practices.md",
+       "label": "Quando Usar Classes Aninhadas, Classes Locais, Classes Anônimas e Expressões Lam"
+      },
+      {
+       "path": "tutorials/classes-objects/enums.md",
+       "label": "Enums"
+      },
+      {
+       "path": "tutorials/classes-objects/more-on-classes.md",
+       "label": "Mais sobre Classes"
+      },
+      {
+       "path": "tutorials/classes-objects/nested-classes.md",
+       "label": "Classes Aninhadas"
+      }
+     ]
+    },
+    {
+     "label": "Data e Hora",
+     "items": [
+      {
+       "path": "tutorials/date-time/clock.md",
+       "label": "Clock"
+      },
+      {
+       "path": "tutorials/date-time/date.md",
+       "label": "Data"
+      },
+      {
+       "path": "tutorials/date-time/dayofweek-month.md",
+       "label": "Enums DayOfWeek e Month"
+      },
+      {
+       "path": "tutorials/date-time/instant.md",
+       "label": "Instant"
+      },
+      {
+       "path": "tutorials/date-time/intro.md",
+       "label": "Visão Geral da API Date Time"
+      },
+      {
+       "path": "tutorials/date-time/legacy-code.md",
+       "label": "Código Legado de Data e Hora"
+      },
+      {
+       "path": "tutorials/date-time/local-time.md",
+       "label": "Data e Hora"
+      },
+      {
+       "path": "tutorials/date-time/non-iso-conversion.md",
+       "label": "Conversão de Data Não-ISO"
+      },
+      {
+       "path": "tutorials/date-time/parsing-formatting.md",
+       "label": "Análise e Formatação"
+      },
+      {
+       "path": "tutorials/date-time/period-duration.md",
+       "label": "period-duration"
+      },
+      {
+       "path": "tutorials/date-time/standard-calendar.md",
+       "label": "standard-calendar"
+      },
+      {
+       "path": "tutorials/date-time/temporal.md",
+       "label": "O Pacote Temporal"
+      },
+      {
+       "path": "tutorials/date-time/zoneid-zone-offset.md",
+       "label": "Fuso Horário e Offset"
+      }
+     ]
+    },
+    {
+     "label": "Excecoes",
+     "items": [
+      {
+       "path": "tutorials/exceptions/catching-handling.md",
+       "label": "Capturando e Tratando Exceções"
+      },
+      {
+       "path": "tutorials/exceptions/throwing.md",
+       "label": "Lançando Exceções"
+      },
+      {
+       "path": "tutorials/exceptions/unchecked-exception-controversy.md",
+       "label": "Exceções Não Verificadas — A Controvérsia"
+      },
+      {
+       "path": "tutorials/exceptions/what-is-an-exception.md",
+       "label": "O Que É uma Exceção?"
+      }
+     ]
+    },
+    {
+     "label": "Foreign Function & Memory",
+     "items": [
+      {
+       "path": "tutorials/ffm/access-memory.md",
+       "label": "Acessar Memória Off-Heap ou On-Heap com Segmentos de Memória"
+      },
+      {
+       "path": "tutorials/ffm/access-structure.md",
+       "label": "Acessar Tipos de Dados Nativos"
+      },
+      {
+       "path": "tutorials/ffm/jextract.md",
+       "label": "Gerar Bindings Java com Jextract"
+      },
+      {
+       "path": "tutorials/ffm/native.md",
+       "label": "Invocar uma Função de Biblioteca C"
+      },
+      {
+       "path": "tutorials/ffm/troubleshoot.md",
+       "label": "Solucionar Problemas em Chamadas para Funções de Biblioteca Nativas"
+      },
+      {
+       "path": "tutorials/ffm/upcall.md",
+       "label": "Como Lidar com uma Chamada de Código Nativo de Volta para Código Java"
+      }
+     ]
+    },
+    {
+     "label": "Generics",
+     "items": [
+      {
+       "path": "tutorials/generics/intro.md",
+       "label": "Introduzindo Generics"
+      },
+      {
+       "path": "tutorials/generics/restrictions.md",
+       "label": "Restrição em Generics"
+      },
+      {
+       "path": "tutorials/generics/type-erasure.md",
+       "label": "Apagamento de Tipo"
+      },
+      {
+       "path": "tutorials/generics/type-inference.md",
+       "label": "Inferência de Tipo"
+      },
+      {
+       "path": "tutorials/generics/wildcards.md",
+       "label": "Wildcards"
+      }
+     ]
+    },
+    {
+     "label": "Heranca",
+     "items": [
+      {
+       "path": "tutorials/inheritance/abstract-classes.md",
+       "label": "Métodos e Classes Abstratas"
+      },
+      {
+       "path": "tutorials/inheritance/objects.md",
+       "label": "Object como Superclasse"
+      },
+      {
+       "path": "tutorials/inheritance/overriding.md",
+       "label": "Sobrescrevendo e Ocultando Métodos"
+      },
+      {
+       "path": "tutorials/inheritance/polymorphism.md",
+       "label": "Polimorfismo"
+      },
+      {
+       "path": "tutorials/inheritance/what-is-inheritance.md",
+       "label": "Herança"
+      }
+     ]
+    },
+    {
+     "label": "Interfaces",
+     "items": [
+      {
+       "path": "tutorials/interfaces/defining-interfaces.md",
+       "label": "Interfaces"
+      },
+      {
+       "path": "tutorials/interfaces/examples.md",
+       "label": "Implementando uma Interface"
+      },
+      {
+       "path": "tutorials/interfaces/interfaces-as-a-type.md",
+       "label": "Usando uma Interface como um Tipo"
+      }
+     ]
+    },
+    {
+     "label": "Entrada/Saida (I/O)",
+     "items": [
+      {
+       "path": "tutorials/java-io/file-system.md",
+       "label": "Noções Básicas do Sistema de Arquivos"
+      },
+      {
+       "path": "tutorials/java-io/file-system/creating-reading-directories.md",
+       "label": "Criando e Lendo Diretórios"
+      },
+      {
+       "path": "tutorials/java-io/file-system/file-path.md",
+       "label": "Acessando Recursos usando Paths"
+      },
+      {
+       "path": "tutorials/java-io/file-system/file-system.md",
+       "label": "Acessando o Sistema de Arquivos"
+      },
+      {
+       "path": "tutorials/java-io/file-system/links.md",
+       "label": "Links, Simbólicos e Outros"
+      },
+      {
+       "path": "tutorials/java-io/file-system/listing.md",
+       "label": "Listando o Conteúdo de um Diretório"
+      },
+      {
+       "path": "tutorials/java-io/file-system/metadata.md",
+       "label": "Gerenciando Atributos de Arquivo"
+      },
+      {
+       "path": "tutorials/java-io/file-system/move-copy-delete.md",
+       "label": "Manipulando Arquivos e Diretórios"
+      },
+      {
+       "path": "tutorials/java-io/file-system/path.md",
+       "label": "path"
+      },
+      {
+       "path": "tutorials/java-io/file-system/walking-tree.md",
+       "label": "Percorrendo a Árvore de Arquivos"
+      },
+      {
+       "path": "tutorials/java-io/file-system/watching-dir-changes.md",
+       "label": "Monitorando um Diretório em Busca de Alterações"
+      },
+      {
+       "path": "tutorials/java-io/intro.md",
+       "label": "Compreendendo os Principais Conceitos de I/O em Java"
+      },
+      {
+       "path": "tutorials/java-io/putting-it-all-together.md",
+       "label": "Juntando Tudo"
+      },
+      {
+       "path": "tutorials/java-io/reading-writing.md",
+       "label": "Noções Básicas de Operações de Arquivo"
+      },
+      {
+       "path": "tutorials/java-io/reading-writing/binary-files.md",
+       "label": "Lendo e Escrevendo Arquivos Binários"
+      },
+      {
+       "path": "tutorials/java-io/reading-writing/buffered-text.md",
+       "label": "Lendo e Escrevendo Arquivos de Texto"
+      },
+      {
+       "path": "tutorials/java-io/reading-writing/common-operations.md",
+       "label": "Liberando Recursos e Capturando Exceções"
+      },
+      {
+       "path": "tutorials/java-io/reading-writing/decorating.md",
+       "label": "Decorando Streams de I/O"
+      },
+      {
+       "path": "tutorials/java-io/reading-writing/in-memory.md",
+       "label": "Streams de E/S em Memória"
+      },
+      {
+       "path": "tutorials/java-io/reading-writing/small-files.md",
+       "label": "Lendo e Escrevendo Arquivos Pequenos"
+      }
+     ]
+    },
+    {
+     "label": "JavaFX",
+     "items": [
+      {
+       "path": "tutorials/javafx/a11y.md",
+       "label": "Acessibilidade em JavaFX"
+      },
+      {
+       "path": "tutorials/javafx/a11y/example.md",
+       "label": "Construa uma Aplicação JavaFX Acessível"
+      },
+      {
+       "path": "tutorials/javafx/a11y/intro.md",
+       "label": "Introdução à API de Acessibilidade do JavaFX"
+      },
+      {
+       "path": "tutorials/javafx/core.md",
+       "label": "Fundamentos do JavaFX"
+      },
+      {
+       "path": "tutorials/javafx/core/all.md",
+       "label": "Juntando tudo"
+      },
+      {
+       "path": "tutorials/javafx/core/effects.md",
+       "label": "Efeitos, Gradientes e Animações"
+      },
+      {
+       "path": "tutorials/javafx/core/fxml.md",
+       "label": "Usando FXML"
+      },
+      {
+       "path": "tutorials/javafx/core/layout.md",
+       "label": "Controles de Layout JavaFX"
+      },
+      {
+       "path": "tutorials/javafx/core/properties.md",
+       "label": "Propriedades JavaFX"
+      },
+      {
+       "path": "tutorials/javafx/core/structure.md",
+       "label": "Estrutura Básica de Aplicação JavaFX Por Exemplo"
+      },
+      {
+       "path": "tutorials/javafx/install.md",
+       "label": "Download e Configuração do JavaFX"
+      }
+     ]
+    },
+    {
+     "label": "JVM e Ferramentas",
+     "items": [
+      {
+       "path": "tutorials/jvm/cds-appcds.md",
+       "label": "CDS e AppCDS no Hotspot"
+      },
+      {
+       "path": "tutorials/jvm/complementary.md",
+       "label": "Ferramentas JDK Complementares"
+      },
+      {
+       "path": "tutorials/jvm/jfr.md",
+       "label": "JDK Flight Recorder"
+      },
+      {
+       "path": "tutorials/jvm/jfr/configure.md",
+       "label": "Configurando o JDK Flight Recorder"
+      },
+      {
+       "path": "tutorials/jvm/jfr/getting-started.md",
+       "label": "Começando com o JDK Flight Recorder"
+      },
+      {
+       "path": "tutorials/jvm/jfr/intro.md",
+       "label": "Introdução ao JDK Flight Recorder"
+      },
+      {
+       "path": "tutorials/jvm/jfr/tools.md",
+       "label": "A ferramenta de linha de comando JFR"
+      },
+      {
+       "path": "tutorials/jvm/tool/garbage-collection.md",
+       "label": "Visão Geral da Coleta de Lixo em Java"
+      },
+      {
+       "path": "tutorials/jvm/tool/garbage-collection/intro.md",
+       "label": "Introdução à Coleta de Lixo"
+      },
+      {
+       "path": "tutorials/jvm/tool/garbage-collection/java-specifics.md",
+       "label": "Coleta de Lixo em Java"
+      },
+      {
+       "path": "tutorials/jvm/tool/garbage-collection/zgc-deepdive.md",
+       "label": "Aprofundamento na Arquitetura do ZGC"
+      },
+      {
+       "path": "tutorials/jvm/tool/garbage-collection/zgc-overview.md",
+       "label": "Visão Geral do ZGC"
+      },
+      {
+       "path": "tutorials/jvm/tool/jpackage.md",
+       "label": "JPackage"
+      },
+      {
+       "path": "tutorials/jvm/tool/jwebserver.md",
+       "label": "JWebserver - Inicie o Servidor Web Simples do Java"
+      },
+      {
+       "path": "tutorials/jvm/tool/security.md",
+       "label": "As Ferramentas de Segurança"
+      },
+      {
+       "path": "tutorials/jvm/tool/security/jarsigner.md",
+       "label": "Jarsigner - Assinando Seus JARs"
+      },
+      {
+       "path": "tutorials/jvm/tool/security/keytool.md",
+       "label": "Keytool - Gerenciando Seu Keystore"
+      },
+      {
+       "path": "tutorials/jvm/tool/security/kinit.md",
+       "label": "Kinit - Obtendo e Concedendo Tickets Kerberos"
+      },
+      {
+       "path": "tutorials/jvm/tool/security/klist.md",
+       "label": "Klist - Exibindo Sua Tabela de Chaves"
+      },
+      {
+       "path": "tutorials/jvm/tool/security/ktabd.md",
+       "label": "Ktab - Gerenciando Sua Tabela de Chaves Local"
+      },
+      {
+       "path": "tutorials/jvm/tool/troubleshooting.md",
+       "label": "As Ferramentas de Solução de Problemas"
+      },
+      {
+       "path": "tutorials/jvm/tool/troubleshooting/jcmd.md",
+       "label": "Jcmd - Enviar Comandos de Diagnóstico para uma JVM"
+      },
+      {
+       "path": "tutorials/jvm/tool/troubleshooting/jdb.md",
+       "label": "Jdb - Corrigindo Bugs em Programas Java"
+      },
+      {
+       "path": "tutorials/jvm/tool/troubleshooting/jhsdb.md",
+       "label": "Jhsdb - Analisando o Core Dump de uma JVM Travada"
+      },
+      {
+       "path": "tutorials/jvm/tool/troubleshooting/jinfo.md",
+       "label": "Jinfo - Gerando Informações de Configuração Java"
+      },
+      {
+       "path": "tutorials/jvm/tool/troubleshooting/jmap.md",
+       "label": "Jmap - Imprimindo Detalhes de um Processo"
+      },
+      {
+       "path": "tutorials/jvm/tool/troubleshooting/jstack.md",
+       "label": "Jstack - Imprimindo Stack Traces Java"
+      },
+      {
+       "path": "tutorials/jvm/tools/complementary/jextract.md",
+       "label": "Jextract - A Ferramenta de Extração de Bindings de Bibliotecas Nativas"
+      },
+      {
+       "path": "tutorials/jvm/tools/core.md",
+       "label": "As Ferramentas Principais do JDK"
+      },
+      {
+       "path": "tutorials/jvm/tools/core/intro.md",
+       "label": "Apresentando as Ferramentas Core do JDK"
+      },
+      {
+       "path": "tutorials/jvm/tools/core/jar.md",
+       "label": "Jar - a Ferramenta de Arquivamento"
+      },
+      {
+       "path": "tutorials/jvm/tools/core/java.md",
+       "label": "Java - Seu Lançador de Aplicações"
+      },
+      {
+       "path": "tutorials/jvm/tools/core/javac.md",
+       "label": "Javac - o Compilador"
+      },
+      {
+       "path": "tutorials/jvm/tools/core/javadoc.md",
+       "label": "Javadoc - o Gerador de Documentação"
+      },
+      {
+       "path": "tutorials/jvm/tools/core/javap.md",
+       "label": "Javap - o Desmontador"
+      },
+      {
+       "path": "tutorials/jvm/tools/core/jdeprscan.md",
+       "label": "Jdeprscan - Scanner de Elementos de API Depreciados"
+      },
+      {
+       "path": "tutorials/jvm/tools/core/jdeps.md",
+       "label": "Jdeps - Analise as Dependências das suas Classes Java"
+      },
+      {
+       "path": "tutorials/jvm/tools/core/jlink.md",
+       "label": "Jlink - Montar e Otimizar um Conjunto de Módulos"
+      },
+      {
+       "path": "tutorials/jvm/tools/core/jmod.md",
+       "label": "Jmod - Criar arquivos JMOD"
+      },
+      {
+       "path": "tutorials/jvm/tools/core/jshell-advanced.md",
+       "label": "Uso Avançado do JShell"
+      },
+      {
+       "path": "tutorials/jvm/tools/core/jshell.md",
+       "label": "JShell - A Ferramenta Shell do Java"
+      },
+      {
+       "path": "tutorials/jvm/tools/monitoring.md",
+       "label": "As Ferramentas de Monitoramento"
+      },
+      {
+       "path": "tutorials/jvm/tools/monitoring/jconsole.md",
+       "label": "Jconsole - o Monitor Gráfico da Sua Aplicação"
+      },
+      {
+       "path": "tutorials/jvm/tools/monitoring/jfr.md",
+       "label": "Jfr - Analisar e Imprimir Arquivos do Flight Recorder"
+      },
+      {
+       "path": "tutorials/jvm/tools/monitoring/jps.md",
+       "label": "Jps - Listando suas JVMs Instrumentadas"
+      },
+      {
+       "path": "tutorials/jvm/tools/monitoring/jstat.md",
+       "label": "Jstat - Monitorando as Estatísticas das suas JVMs"
+      },
+      {
+       "path": "tutorials/jvm/tools/monitoring/jstatd.md",
+       "label": "Jstatd - Monitorando a Criação e Término das Suas JVMs"
+      }
+     ]
+    },
+    {
+     "label": "Lambdas",
+     "items": [
+      {
+       "path": "tutorials/lambdas/combining-chaining-composing.md",
+       "label": "Combinando Expressões Lambda"
+      },
+      {
+       "path": "tutorials/lambdas/first-lambdas.md",
+       "label": "Escrevendo Sua Primeira Expressão Lambda"
+      },
+      {
+       "path": "tutorials/lambdas/functional-interfaces.md",
+       "label": "Usando Expressões Lambda em Sua Aplicação"
+      },
+      {
+       "path": "tutorials/lambdas/method-references.md",
+       "label": "method-references"
+      },
+      {
+       "path": "tutorials/lambdas/writing-comparators.md",
+       "label": "Escrevendo e Combinando Comparators"
+      }
+     ]
+    },
+    {
+     "label": "Fundamentos da Linguagem",
+     "items": [
+      {
+       "path": "tutorials/language-basics/all-operators.md",
+       "label": "all-operators"
+      },
+      {
+       "path": "tutorials/language-basics/arrays.md",
+       "label": "Criando Arrays em Seus Programas"
+      },
+      {
+       "path": "tutorials/language-basics/controlling-flow.md",
+       "label": "Instruções de Controle de Fluxo"
+      },
+      {
+       "path": "tutorials/language-basics/expressions-statements-blocks.md",
+       "label": "Expressões, Declarações e Blocos"
+      },
+      {
+       "path": "tutorials/language-basics/primitive-types.md",
+       "label": "Criando Variáveis de Tipo Primitivo em Seus Programas"
+      },
+      {
+       "path": "tutorials/language-basics/switch-expression.md",
+       "label": "Ramificação com Switch Expressions"
+      },
+      {
+       "path": "tutorials/language-basics/switch-statement.md",
+       "label": "Ramificação com Declarações Switch"
+      },
+      {
+       "path": "tutorials/language-basics/using-operators.md",
+       "label": "Usando Operadores em Seus Programas"
+      },
+      {
+       "path": "tutorials/language-basics/using-var.md",
+       "label": "Usando o Identificador de Tipo Var"
+      },
+      {
+       "path": "tutorials/language-basics/variables.md",
+       "label": "Criando Variáveis e Nomeando-as"
+      }
+     ]
+    },
+    {
+     "label": "Modulos",
+     "items": [
+      {
+       "path": "tutorials/modules/add-exports-opens.md",
+       "label": "Contornando a Encapsulação Forte com `--add-exports` e `--add-opens`"
+      },
+      {
+       "path": "tutorials/modules/add-modules-reads.md",
+       "label": "Estendendo o Grafo de Módulos com `--add-modules` e `--add-reads`"
+      },
+      {
+       "path": "tutorials/modules/automatic-module.md",
+       "label": "Modularização Incremental com Módulos Automáticos"
+      },
+      {
+       "path": "tutorials/modules/building.md",
+       "label": "Construindo Módulos na Linha de Comando"
+      },
+      {
+       "path": "tutorials/modules/implied-readability.md",
+       "label": "Legibilidade Implícita com `requires transitive`"
+      },
+      {
+       "path": "tutorials/modules/intro.md",
+       "label": "Introdução a Módulos em Java"
+      },
+      {
+       "path": "tutorials/modules/opening-for-reflection.md",
+       "label": "Acesso Reflexivo com Módulos Abertos e Pacotes Abertos"
+      },
+      {
+       "path": "tutorials/modules/optional-dependencies.md",
+       "label": "Dependências Opcionais com `requires static`"
+      },
+      {
+       "path": "tutorials/modules/qualified-exports-opens.md",
+       "label": "`exports` e `opens` Qualificados"
+      },
+      {
+       "path": "tutorials/modules/services.md",
+       "label": "Desacoplando Módulos com Serviços"
+      },
+      {
+       "path": "tutorials/modules/strong-encapsulation.md",
+       "label": "Encapsulamento Forte (de Internos do JDK)"
+      },
+      {
+       "path": "tutorials/modules/unnamed-module.md",
+       "label": "unnamed-module"
+      }
+     ]
+    },
+    {
+     "label": "Novos Recursos",
+     "items": [
+      {
+       "path": "tutorials/new-features/using-preview.md",
+       "label": "Usando os Recursos de Pré-visualização Disponíveis no JDK"
+      },
+      {
+       "path": "tutorials/new-features/virtual-threads.md",
+       "label": "Threads Virtuais"
+      }
+     ]
+    },
+    {
+     "label": "Numeros e Strings",
+     "items": [
+      {
+       "path": "tutorials/numbers-strings/autoboxing.md",
+       "label": "Autoboxing e Unboxing"
+      },
+      {
+       "path": "tutorials/numbers-strings/characters.md",
+       "label": "Caracteres"
+      },
+      {
+       "path": "tutorials/numbers-strings/numbers.md",
+       "label": "Números"
+      },
+      {
+       "path": "tutorials/numbers-strings/string-builders.md",
+       "label": "Construtores de String (String Builders)"
+      },
+      {
+       "path": "tutorials/numbers-strings/strings.md",
+       "label": "Strings"
+      }
+     ]
+    },
+    {
+     "label": "Estilo Funcional",
+     "items": [
+      {
+       "path": "tutorials/refactoring-to-functional-style/convertingtostreams.md",
+       "label": "Convertendo Fontes de Dados para Streams"
+      },
+      {
+       "path": "tutorials/refactoring-to-functional-style/foreachwithif.md",
+       "label": "Convertendo foreach com if"
+      },
+      {
+       "path": "tutorials/refactoring-to-functional-style/iteartionwithtransformation.md",
+       "label": "Convertendo Iteração com transformação"
+      },
+      {
+       "path": "tutorials/refactoring-to-functional-style/loopswithsteps.md",
+       "label": "Convertendo Loops com Passos"
+      },
+      {
+       "path": "tutorials/refactoring-to-functional-style/simpleloops.md",
+       "label": "Convertendo Loops Simples"
+      }
+     ]
+    },
+    {
+     "label": "Reflection",
+     "items": [
+      {
+       "path": "tutorials/reflection/annotations.md",
+       "label": "Lendo Anotações"
+      },
+      {
+       "path": "tutorials/reflection/arrays.md",
+       "label": "Trabalhando com Arrays"
+      },
+      {
+       "path": "tutorials/reflection/classes.md",
+       "label": "Recuperando Classes"
+      },
+      {
+       "path": "tutorials/reflection/constructors.md",
+       "label": "Invocando Construtores"
+      },
+      {
+       "path": "tutorials/reflection/dependency-injection.md",
+       "label": "Criando um Framework de Injeção de Dependência"
+      },
+      {
+       "path": "tutorials/reflection/enums.md",
+       "label": "Trabalhando com Enumerações"
+      },
+      {
+       "path": "tutorials/reflection/fields.md",
+       "label": "Lendo e Escrevendo Campos"
+      },
+      {
+       "path": "tutorials/reflection/interceptor.md",
+       "label": "Criando um Interceptor com Anotações"
+      },
+      {
+       "path": "tutorials/reflection/intro.md",
+       "label": "Apresentando a API de Reflection"
+      },
+      {
+       "path": "tutorials/reflection/methods.md",
+       "label": "Invocando Métodos"
+      },
+      {
+       "path": "tutorials/reflection/modifiers.md",
+       "label": "Lendo Modificadores"
+      },
+      {
+       "path": "tutorials/reflection/names.md",
+       "label": "Lendo Nomes de Classes"
+      },
+      {
+       "path": "tutorials/reflection/records.md",
+       "label": "Trabalhando com Records"
+      }
+     ]
+    },
+    {
+     "label": "Expressoes Regulares",
+     "items": [
+      {
+       "path": "tutorials/regex/boundary-matchers.md",
+       "label": "Limites"
+      },
+      {
+       "path": "tutorials/regex/character-classes.md",
+       "label": "Classes de Caracteres"
+      },
+      {
+       "path": "tutorials/regex/groups.md",
+       "label": "Grupos de Captura"
+      },
+      {
+       "path": "tutorials/regex/intro.md",
+       "label": "Introdução às Expressões Regulares"
+      },
+      {
+       "path": "tutorials/regex/matchers.md",
+       "label": "A Classe Matcher"
+      },
+      {
+       "path": "tutorials/regex/pattern-syntax-exception.md",
+       "label": "Métodos da Classe PatternSyntaxException"
+      },
+      {
+       "path": "tutorials/regex/patterns.md",
+       "label": "A Classe Pattern"
+      },
+      {
+       "path": "tutorials/regex/predefined-character-classes.md",
+       "label": "Classes de Caracteres Predefinidas"
+      },
+      {
+       "path": "tutorials/regex/quantifiers.md",
+       "label": "Quantificadores"
+      },
+      {
+       "path": "tutorials/regex/string-literals.md",
+       "label": "Literais de String"
+      }
+     ]
+    },
+    {
+     "label": "Seguranca",
+     "items": [
+      {
+       "path": "tutorials/security/app-integrity-tools.md",
+       "label": "Aproveitando Ferramentas e Atualizações do JDK para Ajudar a Proteger Aplicações"
+      },
+      {
+       "path": "tutorials/security/digital-signature.md",
+       "label": "Fundamentos de Assinaturas Digitais e Certificados em Java"
+      },
+      {
+       "path": "tutorials/security/intro.md",
+       "label": "Introdução à Criptografia/Descriptografia em Java"
+      },
+      {
+       "path": "tutorials/security/monitor.md",
+       "label": "Monitorando a Segurança de Aplicações Java com ferramentas JDK e Eventos JFR"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "jls",
+   "label": "Especificacao da Linguagem (JLS)",
+   "icon": "BookText",
+   "groups": [
+    {
+     "label": "Especificacao da Linguagem (JLS)",
+     "items": [
+      {
+       "path": "jls/jls-01.md",
+       "label": "Introdução"
+      },
+      {
+       "path": "jls/jls-02.md",
+       "label": "Gramáticas"
+      },
+      {
+       "path": "jls/jls-03.md",
+       "label": "Estrutura Léxica"
+      },
+      {
+       "path": "jls/jls-04.md",
+       "label": "Tipos, Valores e Variáveis"
+      },
+      {
+       "path": "jls/jls-05.md",
+       "label": "Conversões e Contextos"
+      },
+      {
+       "path": "jls/jls-06.md",
+       "label": "Nomes"
+      },
+      {
+       "path": "jls/jls-07.md",
+       "label": "Pacotes e Módulos"
+      },
+      {
+       "path": "jls/jls-08.md",
+       "label": "Classes"
+      },
+      {
+       "path": "jls/jls-09.md",
+       "label": "Interfaces"
+      },
+      {
+       "path": "jls/jls-10.md",
+       "label": "Arrays"
+      },
+      {
+       "path": "jls/jls-11.md",
+       "label": "Exceções"
+      },
+      {
+       "path": "jls/jls-12.md",
+       "label": "Execução"
+      },
+      {
+       "path": "jls/jls-13.md",
+       "label": "Binários"
+      },
+      {
+       "path": "jls/jls-14.md",
+       "label": "jls-14.md"
+      },
+      {
+       "path": "jls/jls-15.md",
+       "label": "Expressões"
+      },
+      {
+       "path": "jls/jls-16.md",
+       "label": "Atribuição Definida"
+      },
+      {
+       "path": "jls/jls-17.md",
+       "label": "Threads e Locks"
+      },
+      {
+       "path": "jls/jls-18.md",
+       "label": "Inferência de Tipos"
+      },
+      {
+       "path": "jls/jls-19.md",
+       "label": "Sintaxe"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "jvms",
+   "label": "Especificacao da JVM (JVMS)",
+   "icon": "Cpu",
+   "groups": [
+    {
+     "label": "Especificacao da JVM (JVMS)",
+     "items": [
+      {
+       "path": "jvms/jvms-01.md",
+       "label": "Introdução"
+      },
+      {
+       "path": "jvms/jvms-02.md",
+       "label": "A Estrutura da Máquina Virtual Java"
+      },
+      {
+       "path": "jvms/jvms-03.md",
+       "label": "Compilando para a JVM"
+      },
+      {
+       "path": "jvms/jvms-04.md",
+       "label": "O Formato de Arquivo class"
+      },
+      {
+       "path": "jvms/jvms-05.md",
+       "label": "Carregamento, Vinculação e Inicialização"
+      },
+      {
+       "path": "jvms/jvms-06.md",
+       "label": "O Conjunto de Instruções da JVM"
+      },
+      {
+       "path": "jvms/jvms-07.md",
+       "label": "Mnemônicos de Opcode por Ordem Numérica"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "guides",
+   "label": "Guias do JDK",
+   "icon": "Wrench",
+   "groups": [
+    {
+     "label": "Acessibilidade",
+     "items": [
+      {
+       "path": "guides/access/accessibility-properties.md",
+       "label": "Propriedades de Acessibilidade"
+      },
+      {
+       "path": "guides/access/enabling-and-testing-java-access-bridge.md",
+       "label": "Habilitando e Testando o Java Access Bridge"
+      },
+      {
+       "path": "guides/access/index.md",
+       "label": "Plataforma Java, Edição Padrão Guia de Acessibilidade Java, Versão 25"
+      },
+      {
+       "path": "guides/access/java-access-bridge-api.md",
+       "label": "API Java Access Bridge"
+      },
+      {
+       "path": "guides/access/java-access-bridge-architecture.md",
+       "label": "Arquitetura do Java Access Bridge"
+      },
+      {
+       "path": "guides/access/java-access-bridge-overview.md",
+       "label": "Visão Geral do Java Access Bridge"
+      },
+      {
+       "path": "guides/access/java-accessibility-overview.md",
+       "label": "Java Accessibility Overview"
+      },
+      {
+       "path": "guides/access/java-accessibility-utilities-overview.md",
+       "label": "Visão Geral dos Utilitários de Acessibilidade Java"
+      },
+      {
+       "path": "guides/access/preface.md",
+       "label": "Prefácio"
+      }
+     ]
+    },
+    {
+     "label": "Instalacao",
+     "items": [
+      {
+       "path": "guides/install/index.md",
+       "label": "Plataforma Java, Edição Padrão Guia de Instalação do JDK, Versão 25"
+      },
+      {
+       "path": "guides/install/installation-jdk-configuration-file.md",
+       "label": "Instalação do JDK com um Arquivo de Configuração na Plataforma Microsoft Windows"
+      },
+      {
+       "path": "guides/install/installation-jdk-linux-platforms.md",
+       "label": "Instalação do JDK em Plataformas Linux"
+      },
+      {
+       "path": "guides/install/installation-jdk-macos.md",
+       "label": "Instalação do JDK no macOS"
+      },
+      {
+       "path": "guides/install/installation-jdk-microsoft-windows-platforms.md",
+       "label": "Instalação do JDK em Plataformas Microsoft Windows"
+      },
+      {
+       "path": "guides/install/installed-directory-structure-jdk.md",
+       "label": "Estrutura de Diretórios Instalados do JDK"
+      },
+      {
+       "path": "guides/install/overview-jdk-installation.md",
+       "label": "Visão Geral da Instalação do JDK"
+      },
+      {
+       "path": "guides/install/preface.md",
+       "label": "Prefácio"
+      },
+      {
+       "path": "guides/install/version-string-format.md",
+       "label": "Formato da String de Versão"
+      }
+     ]
+    },
+    {
+     "label": "Internacionalizacao",
+     "items": [
+      {
+       "path": "guides/intl/font-configuration-files.md",
+       "label": "Arquivos de Configuração de Fonte"
+      },
+      {
+       "path": "guides/intl/index.md",
+       "label": "Java Platform, Standard Edition Guia de Internacionalização, Release 25"
+      },
+      {
+       "path": "guides/intl/internationalization-overview.md",
+       "label": "Visão Geral da Internacionalização"
+      },
+      {
+       "path": "guides/intl/preface.md",
+       "label": "Prefácio"
+      },
+      {
+       "path": "guides/intl/supported-calendars.md",
+       "label": "Calendários Suportados"
+      },
+      {
+       "path": "guides/intl/supported-encodings.md",
+       "label": "Codificações Suportadas"
+      },
+      {
+       "path": "guides/intl/supported-fonts.md",
+       "label": "Fontes Suportadas"
+      }
+     ]
+    },
+    {
+     "label": "Javadoc",
+     "items": [
+      {
+       "path": "guides/javadoc/index.md",
+       "label": "Java Platform, Standard Edition Guia JavaDoc, Release 25"
+      },
+      {
+       "path": "guides/javadoc/javadoc-css-themes.md",
+       "label": "Temas CSS do JavaDoc"
+      },
+      {
+       "path": "guides/javadoc/javadoc-tool.md",
+       "label": "Ferramenta JavaDoc"
+      },
+      {
+       "path": "guides/javadoc/preface.md",
+       "label": "Prefácio"
+      },
+      {
+       "path": "guides/javadoc/snippets.md",
+       "label": "Snippets"
+      },
+      {
+       "path": "guides/javadoc/using-markdown-documentation-comments.md",
+       "label": "Markdown em Comentários de Documentação"
+      }
+     ]
+    },
+    {
+     "label": "JMX",
+     "items": [
+      {
+       "path": "guides/jmx/discovery-and-lookup-services.md",
+       "label": "Serviços de Descoberta e Consulta"
+      },
+      {
+       "path": "guides/jmx/essentials-jmx-api.md",
+       "label": "Fundamentos da API JMX"
+      },
+      {
+       "path": "guides/jmx/getting-started.md",
+       "label": "Começando"
+      },
+      {
+       "path": "guides/jmx/index.md",
+       "label": "Guia de Java Management Extensions da Plataforma Java, Standard Edition, Versão "
+      },
+      {
+       "path": "guides/jmx/instrumenting-your-resources-jmx-technology.md",
+       "label": "Instrumentando Seus Recursos para a Tecnologia JMX"
+      },
+      {
+       "path": "guides/jmx/introduction-jmx-technology.md",
+       "label": "Introdução à Tecnologia JMX"
+      },
+      {
+       "path": "guides/jmx/java-management-extensions-examples.md",
+       "label": "Exemplos de Java Management Extensions"
+      },
+      {
+       "path": "guides/jmx/java-management-extensions-jmx-api-specification.md",
+       "label": "Java Management Extensions (JMX) API"
+      },
+      {
+       "path": "guides/jmx/java-management-extensions-jmx-technology-tutorial.md",
+       "label": "Tutorial da Tecnologia Java Management Extensions (JMX)"
+      },
+      {
+       "path": "guides/jmx/java-management-extensions-jmx-user-guide.md",
+       "label": "Guia do Usuário da Tecnologia Java Management Extensions"
+      },
+      {
+       "path": "guides/jmx/java-naming-and-directory-interface-jndi-ldap-lookup-service-example.md",
+       "label": "Serviço de Pesquisa (Lookup Service) JNDI (Java Naming and Directory Interface)/"
+      },
+      {
+       "path": "guides/jmx/jmx-connectors-example.md",
+       "label": "Conectores JMX"
+      },
+      {
+       "path": "guides/jmx/jmx-connectors.md",
+       "label": "Conectores JMX"
+      },
+      {
+       "path": "guides/jmx/jmx-essentials-example.md",
+       "label": "Fundamentos de JMX"
+      },
+      {
+       "path": "guides/jmx/jmx-mbean-notifications-example.md",
+       "label": "Notificações de JMX MBean"
+      },
+      {
+       "path": "guides/jmx/jmx-technology-architecture.md",
+       "label": "Arquitetura da Tecnologia JMX"
+      },
+      {
+       "path": "guides/jmx/jmx-technology-versions.md",
+       "label": "Versões da Tecnologia JMX"
+      },
+      {
+       "path": "guides/jmx/lookup-services.md",
+       "label": "Serviços de Pesquisa"
+      },
+      {
+       "path": "guides/jmx/mbean-descriptors-example.md",
+       "label": "Descritores MBean"
+      },
+      {
+       "path": "guides/jmx/mxbeans-example.md",
+       "label": "MXBeans"
+      },
+      {
+       "path": "guides/jmx/preface.md",
+       "label": "Prefácio"
+      },
+      {
+       "path": "guides/jmx/security.md",
+       "label": "Segurança"
+      },
+      {
+       "path": "guides/jmx/service-location-protocol-slp-lookup-service-example.md",
+       "label": "Serviço de Localização de Protocolo (SLP) Lookup Service"
+      },
+      {
+       "path": "guides/jmx/simple-security-example.md",
+       "label": "Segurança Simples"
+      },
+      {
+       "path": "guides/jmx/using-jmx-agents.md",
+       "label": "Usando Agentes JMX"
+      },
+      {
+       "path": "guides/jmx/using-jmx-connectors-manage-resources-remotely.md",
+       "label": "Usando Conectores JMX para Gerenciar Recursos Remotamente"
+      }
+     ]
+    },
+    {
+     "label": "jpackage",
+     "items": [
+      {
+       "path": "guides/jpackage/basic-packaging.md",
+       "label": "Empacotamento Básico"
+      },
+      {
+       "path": "guides/jpackage/image-and-runtime-modifications.md",
+       "label": "Modificações de Imagem e Runtime"
+      },
+      {
+       "path": "guides/jpackage/index.md",
+       "label": "Java Platform, Standard Edition Packaging Tool User's Guide, Release 25"
+      },
+      {
+       "path": "guides/jpackage/manage-installation.md",
+       "label": "Gerenciar a Instalação da Sua Aplicação"
+      },
+      {
+       "path": "guides/jpackage/override-jpackage-resources.md",
+       "label": "Sobrescrever Recursos do jpackage"
+      },
+      {
+       "path": "guides/jpackage/packaging-overview.md",
+       "label": "Visão Geral de Empacotamento"
+      },
+      {
+       "path": "guides/jpackage/preface.md",
+       "label": "Prefácio"
+      },
+      {
+       "path": "guides/jpackage/support-application-features.md",
+       "label": "Suporte aos Requisitos da Aplicação"
+      }
+     ]
+    },
+    {
+     "label": "Flight Recorder API",
+     "items": [
+      {
+       "path": "guides/jrtflightrecorder/categories.md",
+       "label": "Categorias"
+      },
+      {
+       "path": "guides/jrtflightrecorder/configuration.md",
+       "label": "Configurar Eventos e Flight Recorder"
+      },
+      {
+       "path": "guides/jrtflightrecorder/create-event-stream-external-process.md",
+       "label": "Criar Stream de Eventos a partir de Processo Externo"
+      },
+      {
+       "path": "guides/jrtflightrecorder/create-event-stream-process-active.md",
+       "label": "Criar Fluxo de Eventos em Processo, Ativo"
+      },
+      {
+       "path": "guides/jrtflightrecorder/create-event-stream-process-passive.md",
+       "label": "Criar Event Stream em Processo, Passivo"
+      },
+      {
+       "path": "guides/jrtflightrecorder/create-events.md",
+       "label": "Criar Eventos"
+      },
+      {
+       "path": "guides/jrtflightrecorder/creating-and-recording-your-first-event.md",
+       "label": "Criando e Registrando Seu Primeiro Evento"
+      },
+      {
+       "path": "guides/jrtflightrecorder/custom-annotations.md",
+       "label": "Anotações Personalizadas"
+      },
+      {
+       "path": "guides/jrtflightrecorder/data-types.md",
+       "label": "Tipos de Dados"
+      },
+      {
+       "path": "guides/jrtflightrecorder/dynamic-events.md",
+       "label": "Eventos Dinâmicos"
+      },
+      {
+       "path": "guides/jrtflightrecorder/enable-and-disable-events.md",
+       "label": "Habilitar e Desabilitar Eventos"
+      },
+      {
+       "path": "guides/jrtflightrecorder/event-metadata.md",
+       "label": "Metadados de Evento"
+      },
+      {
+       "path": "guides/jrtflightrecorder/event-threshold.md",
+       "label": "Limite de Eventos"
+      },
+      {
+       "path": "guides/jrtflightrecorder/exclude-fields-being-persisted-transient-keyword.md",
+       "label": "Excluir Campos de Serem Persistidos com a Palavra-Chave transient"
+      },
+      {
+       "path": "guides/jrtflightrecorder/filter-events-settingdefinition.md",
+       "label": "Filtrar Eventos com SettingDefinition"
+      },
+      {
+       "path": "guides/jrtflightrecorder/flight-recorder-configurations.md",
+       "label": "Configurações do Flight Recorder"
+      },
+      {
+       "path": "guides/jrtflightrecorder/guidelines-naming-and-labeling-events.md",
+       "label": "Diretrizes para Nomear e Rotular Eventos"
+      },
+      {
+       "path": "guides/jrtflightrecorder/index.md",
+       "label": "Guia do Programador da API Flight Recorder da Java Platform, Standard Edition, R"
+      },
+      {
+       "path": "guides/jrtflightrecorder/inheritance-annotations-settings-and-fields.md",
+       "label": "Herança de Anotações, Configurações e Campos"
+      },
+      {
+       "path": "guides/jrtflightrecorder/manually-register-and-unregister-event.md",
+       "label": "Registrar e Desregistrar um Evento Manualmente"
+      },
+      {
+       "path": "guides/jrtflightrecorder/measuring-time.md",
+       "label": "Medindo o Tempo"
+      },
+      {
+       "path": "guides/jrtflightrecorder/monitor-events-flight-recorder-event-streaming-api.md",
+       "label": "Monitorar Eventos com a API de Streaming de Eventos do Flight Recorder"
+      },
+      {
+       "path": "guides/jrtflightrecorder/parsing-recording-file.md",
+       "label": "Analisando um Arquivo de Gravação"
+      },
+      {
+       "path": "guides/jrtflightrecorder/periodic-events.md",
+       "label": "Eventos Periódicos"
+      },
+      {
+       "path": "guides/jrtflightrecorder/preface.md",
+       "label": "Prefácio"
+      },
+      {
+       "path": "guides/jrtflightrecorder/printing-event-stack-trace.md",
+       "label": "Imprimindo Stack Trace de Evento"
+      },
+      {
+       "path": "guides/jrtflightrecorder/why-use-jfr-api.md",
+       "label": "Por que usar a API?"
+      }
+     ]
+    },
+    {
+     "label": "JShell",
+     "items": [
+      {
+       "path": "guides/jshell/commands.md",
+       "label": "Comandos"
+      },
+      {
+       "path": "guides/jshell/editing.md",
+       "label": "Edição"
+      },
+      {
+       "path": "guides/jshell/external-code.md",
+       "label": "Código Externo"
+      },
+      {
+       "path": "guides/jshell/feedback-modes.md",
+       "label": "Modos de Feedback"
+      },
+      {
+       "path": "guides/jshell/index.md",
+       "label": "Java Platform, Standard Edition Java Shell User’s Guide, Release 25"
+      },
+      {
+       "path": "guides/jshell/introduction-jshell.md",
+       "label": "Introdução ao JShell"
+      },
+      {
+       "path": "guides/jshell/preface.md",
+       "label": "Prefácio"
+      },
+      {
+       "path": "guides/jshell/scripts.md",
+       "label": "Scripts"
+      },
+      {
+       "path": "guides/jshell/snippets.md",
+       "label": "Snippets"
+      }
+     ]
+    },
+    {
+     "label": "Monitoramento e Gestao",
+     "items": [
+      {
+       "path": "guides/management/index.md",
+       "label": "Guia de Monitoramento e Gerenciamento da Java Platform, Standard Edition, Releas"
+      },
+      {
+       "path": "guides/management/java-discovery-protocol.md",
+       "label": "Java Discovery Protocol (JDP)"
+      },
+      {
+       "path": "guides/management/monitoring-and-management-using-jmx-technology.md",
+       "label": "Monitoramento e Gerenciamento Usando a Tecnologia JMX"
+      },
+      {
+       "path": "guides/management/overview-java-se-monitoring-and-management.md",
+       "label": "Visão Geral de Monitoramento e Gerenciamento do Java SE"
+      },
+      {
+       "path": "guides/management/preface.md",
+       "label": "Prefácio"
+      },
+      {
+       "path": "guides/management/using-jconsole.md",
+       "label": "Usando JConsole"
+      },
+      {
+       "path": "guides/management/using-platform-mbean-server-and-platform-mxbeans.md",
+       "label": "Usando o Platform MBean Server e Platform MXBeans"
+      }
+     ]
+    },
+    {
+     "label": "Migracao",
+     "items": [
+      {
+       "path": "guides/migrate/getting-started.md",
+       "label": "Primeiros Passos"
+      },
+      {
+       "path": "guides/migrate/index.md",
+       "label": "Java Platform, Standard Edition Oracle JDK Migration Guide, Release 25"
+      },
+      {
+       "path": "guides/migrate/migrating-jdk-8-later-jdk-releases.md",
+       "label": "Migrando do JDK 8 para Versões Posteriores do JDK"
+      },
+      {
+       "path": "guides/migrate/next-steps.md",
+       "label": "Próximos Passos"
+      },
+      {
+       "path": "guides/migrate/preface.md",
+       "label": "Prefácio"
+      },
+      {
+       "path": "guides/migrate/preparing-migration.md",
+       "label": "Preparando para a Migração"
+      },
+      {
+       "path": "guides/migrate/removed-apis.md",
+       "label": "APIs Removidas"
+      },
+      {
+       "path": "guides/migrate/removed-tools-and-components.md",
+       "label": "Ferramentas e Componentes Removidos"
+      },
+      {
+       "path": "guides/migrate/security-updates.md",
+       "label": "Atualizações de Segurança"
+      },
+      {
+       "path": "guides/migrate/significant-changes-jdk-11.md",
+       "label": "Mudanças Significativas na Versão JDK 11"
+      },
+      {
+       "path": "guides/migrate/significant-changes-jdk-12.md",
+       "label": "Mudanças Significativas no Lançamento do JDK 12"
+      },
+      {
+       "path": "guides/migrate/significant-changes-jdk-13.md",
+       "label": "Mudanças Significativas na Versão JDK 13"
+      },
+      {
+       "path": "guides/migrate/significant-changes-jdk-14.md",
+       "label": "Mudanças Significativas na Versão JDK 14"
+      },
+      {
+       "path": "guides/migrate/significant-changes-jdk-15.md",
+       "label": "Mudanças Significativas na Versão JDK 15"
+      },
+      {
+       "path": "guides/migrate/significant-changes-jdk-16.md",
+       "label": "Mudanças Significativas na Versão JDK 16"
+      },
+      {
+       "path": "guides/migrate/significant-changes-jdk-17.md",
+       "label": "Mudanças Significativas na Versão JDK 17"
+      },
+      {
+       "path": "guides/migrate/significant-changes-jdk-18.md",
+       "label": "Mudanças Significativas na Versão JDK 18"
+      },
+      {
+       "path": "guides/migrate/significant-changes-jdk-19.md",
+       "label": "Mudanças Significativas no Lançamento do JDK 19"
+      },
+      {
+       "path": "guides/migrate/significant-changes-jdk-20.md",
+       "label": "Mudanças Significativas na Versão JDK 20"
+      },
+      {
+       "path": "guides/migrate/significant-changes-jdk-21.md",
+       "label": "Mudanças Significativas na Versão JDK 21"
+      },
+      {
+       "path": "guides/migrate/significant-changes-jdk-22.md",
+       "label": "Mudanças Significativas na Versão JDK 22"
+      },
+      {
+       "path": "guides/migrate/significant-changes-jdk-23.md",
+       "label": "Mudanças Significativas na Versão JDK 23"
+      },
+      {
+       "path": "guides/migrate/significant-changes-jdk-24.md",
+       "label": "Mudanças Significativas na Versão JDK 24"
+      },
+      {
+       "path": "guides/migrate/significant-changes-jdk-25.md",
+       "label": "Mudanças Significativas na Versão JDK 25"
+      },
+      {
+       "path": "guides/migrate/significant-changes-jdk-release.md",
+       "label": "Mudanças Significativas no JDK"
+      }
+     ]
+    },
+    {
+     "label": "Seguranca",
+     "items": [
+      {
+       "path": "guides/security/accessing-native-gss-api.md",
+       "label": "Acessando GSS-API Nativa"
+      },
+      {
+       "path": "guides/security/advanced-security-programming-java-se-authentication-secure-communication-and-single-sign1.md",
+       "label": "Programação de Segurança Avançada em Java SE Autenticação, Comunicação Segura e "
+      },
+      {
+       "path": "guides/security/appendix-setting-kerberos-accounts.md",
+       "label": "Apêndice A: Configurando Contas Kerberos"
+      },
+      {
+       "path": "guides/security/general-security1.md",
+       "label": "Segurança Geral"
+      },
+      {
+       "path": "guides/security/howtoimplaprovider.md",
+       "label": "Como Implementar um Provedor na Arquitetura de Criptografia Java"
+      },
+      {
+       "path": "guides/security/index.md",
+       "label": "Java Platform, Standard Edition Guia do Desenvolvedor de Segurança, Versão 25"
+      },
+      {
+       "path": "guides/security/introduction-jaas-and-java-gss-api-tutorials1.md",
+       "label": "Introdução aos Tutoriais de JAAS e Java GSS-API"
+      },
+      {
+       "path": "guides/security/jaas-authentication-tutorial.md",
+       "label": "Tutorial de Autenticação JAAS"
+      },
+      {
+       "path": "guides/security/jaas-authentication.md",
+       "label": "Autenticação JAAS"
+      },
+      {
+       "path": "guides/security/java-api-xml-processing-jaxp-security-guide.md",
+       "label": "Guia de Segurança da Java API para Processamento XML (JAXP)"
+      },
+      {
+       "path": "guides/security/java-authentication-and-authorization-service-jaas-loginmodule-developers-guide1.md",
+       "label": "Serviço de Autenticação e Autorização Java (JAAS): Guia do Desenvolvedor de Logi"
+      },
+      {
+       "path": "guides/security/java-authentication-and-authorization-service-jaas1.md",
+       "label": "Serviço de Autenticação e Autorização Java (JAAS)"
+      },
+      {
+       "path": "guides/security/java-authentication-authorization-service-jaas-reference-guide.md",
+       "label": "Guia de Referência do Java Authentication and Authorization Service (JAAS)"
+      },
+      {
+       "path": "guides/security/java-cryptography-architecture-jca-reference-guide.md",
+       "label": "Guia de Referência da Java Cryptography Architecture (JCA)"
+      },
+      {
+       "path": "guides/security/java-generic-security-services-java-gss-api1.md",
+       "label": "Java Generic Security Services (Java GSS-API)"
+      },
+      {
+       "path": "guides/security/java-pki-programmers-guide.md",
+       "label": "Guia do Programador Java PKI"
+      },
+      {
+       "path": "guides/security/java-sasl-api-programming-and-deployment-guide1.md",
+       "label": "Guia de Programação e Implantação da API Java SASL"
+      },
+      {
+       "path": "guides/security/java-secure-socket-extension-jsse-reference-guide.md",
+       "label": "Guia de Referência da Java Secure Socket Extension (JSSE)"
+      },
+      {
+       "path": "guides/security/java-security-overview1.md",
+       "label": "Visão Geral da Segurança Java"
+      },
+      {
+       "path": "guides/security/java-security-standard-algorithm-names.md",
+       "label": "Nomes de Algoritmos Padrão"
+      },
+      {
+       "path": "guides/security/java-xml-digital-signature-api-overview-and-tutorial.md",
+       "label": "Visão Geral e Tutorial da API de Assinatura Digital XML"
+      },
+      {
+       "path": "guides/security/kerberos-5-gss-api-mechanism.md",
+       "label": "O Mecanismo GSS-API do Kerberos 5"
+      },
+      {
+       "path": "guides/security/kerberos-requirements.md",
+       "label": "Requisitos do Kerberos"
+      },
+      {
+       "path": "guides/security/kerberos-system-properties-security-properties-environment-variables.md",
+       "label": "Propriedades de Sistema, Propriedades de Segurança e Variáveis de Ambiente Kerbe"
+      },
+      {
+       "path": "guides/security/migrating-from-deprecated-removal-subject-getsubject-subject-doas-methods-subject-current-subject-callas-methods.md",
+       "label": "Migrando dos Métodos Subject.getSubject e Subject.doAs (Obsoletos para Remoção) "
+      },
+      {
+       "path": "guides/security/oracle-providers.md",
+       "label": "Documentação dos Provedores JDK"
+      },
+      {
+       "path": "guides/security/part-i--secure-authentication-using-java-authentication-authorization-service-jaas.md",
+       "label": "Parte I: Autenticação Segura usando o Java Authentication and Authorization Serv"
+      },
+      {
+       "path": "guides/security/part-ii--secure-communications-using-java-se-security-api.md",
+       "label": "Parte II: Comunicações Seguras usando a API de Segurança Java SE"
+      },
+      {
+       "path": "guides/security/part-iii--deploying-single-sign-kerberos-environment.md",
+       "label": "Parte III: Implantação para Single Sign-On em um Ambiente Kerberos"
+      },
+      {
+       "path": "guides/security/part-iv--secure-communications-using-stronger-encryption-algorithms.md",
+       "label": "Parte IV : Comunicações Seguras Usando Algoritmos de Criptografia Mais Fortes"
+      },
+      {
+       "path": "guides/security/part-v--secure-authentication-using-spnego-java-gss-mechanism.md",
+       "label": "Parte V: Autenticação Segura Usando o Mecanismo SPNEGO Java GSS"
+      },
+      {
+       "path": "guides/security/part-vi-httpspnego-authentication.md",
+       "label": "Parte VI: Autenticação HTTP/SPNEGO"
+      },
+      {
+       "path": "guides/security/pkcs11-reference-guide1.md",
+       "label": "Guia de Referência PKCS#11"
+      },
+      {
+       "path": "guides/security/preface.md",
+       "label": "Prefácio"
+      },
+      {
+       "path": "guides/security/security-manager-is-permanently-disabled.md",
+       "label": "O Security Manager Está Permanentemente Desabilitado"
+      },
+      {
+       "path": "guides/security/security-properties-file.md",
+       "label": "O Arquivo de Propriedades de Segurança"
+      },
+      {
+       "path": "guides/security/source-code-advanced-security-programming-java-se-authentication-secure-communication-single-sign.md",
+       "label": "Código-Fonte para Programação de Segurança Avançada em Java SE Autenticação, Com"
+      },
+      {
+       "path": "guides/security/source-code-jaas-java-gss-api-tutorials.md",
+       "label": "Código-Fonte para Tutoriais JAAS e Java GSS-API"
+      },
+      {
+       "path": "guides/security/terms-definitions.md",
+       "label": "Termos e Definições"
+      },
+      {
+       "path": "guides/security/transport-layer-security-tls-protocol-overview.md",
+       "label": "Visão Geral do Protocolo Transport Layer Security (TLS)"
+      },
+      {
+       "path": "guides/security/troubleshooting-jgss.md",
+       "label": "Solução de Problemas do JGSS"
+      },
+      {
+       "path": "guides/security/troubleshooting-security.md",
+       "label": "Solução de Problemas de Segurança"
+      },
+      {
+       "path": "guides/security/use-jaas-login-utility-and-java-gss-api-secure-message-exchanges.md",
+       "label": "Uso do Utilitário de Login JAAS e Java GSS-API para Trocas Seguras de Mensagens"
+      },
+      {
+       "path": "guides/security/use-jaas-login-utility.md",
+       "label": "Uso do Utilitário de Login JAAS"
+      },
+      {
+       "path": "guides/security/use-java-gss-api-secure-message-exchanges-without-jaas-programming.md",
+       "label": "Uso da GSS-API Java para Trocas Seguras de Mensagens Sem Programação JAAS"
+      },
+      {
+       "path": "guides/security/when-use-java-gss-api-vs--jsse.md",
+       "label": "Quando Usar Java GSS-API Versus JSSE"
+      }
+     ]
+    },
+    {
+     "label": "Ferramentas (man pages)",
+     "items": [
+      {
+       "path": "guides/tools/index.md",
+       "label": "Especificações das Ferramentas do Java Development Kit Versão 25"
+      },
+      {
+       "path": "guides/tools/jabswitch.md",
+       "label": "O Comando jabswitch"
+      },
+      {
+       "path": "guides/tools/jaccessinspector.md",
+       "label": "O Comando jaccessinspector"
+      },
+      {
+       "path": "guides/tools/jaccesswalker.md",
+       "label": "O Comando jaccesswalker"
+      },
+      {
+       "path": "guides/tools/jar.md",
+       "label": "O Comando jar"
+      },
+      {
+       "path": "guides/tools/jarsigner.md",
+       "label": "O Comando jarsigner"
+      },
+      {
+       "path": "guides/tools/java.md",
+       "label": "O Comando java"
+      },
+      {
+       "path": "guides/tools/javac.md",
+       "label": "O Comando javac"
+      },
+      {
+       "path": "guides/tools/javadoc.md",
+       "label": "O Comando javadoc"
+      },
+      {
+       "path": "guides/tools/javap.md",
+       "label": "O Comando javap"
+      },
+      {
+       "path": "guides/tools/jcmd.md",
+       "label": "O Comando jcmd"
+      },
+      {
+       "path": "guides/tools/jconsole.md",
+       "label": "O Comando jconsole"
+      },
+      {
+       "path": "guides/tools/jdb.md",
+       "label": "O Comando jdb"
+      },
+      {
+       "path": "guides/tools/jdeprscan.md",
+       "label": "O Comando jdeprscan"
+      },
+      {
+       "path": "guides/tools/jdeps.md",
+       "label": "O Comando jdeps"
+      },
+      {
+       "path": "guides/tools/jfr.md",
+       "label": "O Comando jfr"
+      },
+      {
+       "path": "guides/tools/jhsdb.md",
+       "label": "O Comando jhsdb"
+      },
+      {
+       "path": "guides/tools/jinfo.md",
+       "label": "O Comando jinfo"
+      },
+      {
+       "path": "guides/tools/jlink.md",
+       "label": "O Comando jlink"
+      },
+      {
+       "path": "guides/tools/jmap.md",
+       "label": "O Comando jmap"
+      },
+      {
+       "path": "guides/tools/jmod.md",
+       "label": "O Comando jmod"
+      },
+      {
+       "path": "guides/tools/jnativescan.md",
+       "label": "O Comando jnativescan"
+      },
+      {
+       "path": "guides/tools/jpackage.md",
+       "label": "O Comando jpackage"
+      },
+      {
+       "path": "guides/tools/jps.md",
+       "label": "O Comando jps"
+      },
+      {
+       "path": "guides/tools/jrunscript.md",
+       "label": "O Comando jrunscript"
+      },
+      {
+       "path": "guides/tools/jshell.md",
+       "label": "O Comando jshell"
+      },
+      {
+       "path": "guides/tools/jstack.md",
+       "label": "O Comando jstack"
+      },
+      {
+       "path": "guides/tools/jstat.md",
+       "label": "O Comando jstat"
+      },
+      {
+       "path": "guides/tools/jstatd.md",
+       "label": "O Comando jstatd"
+      },
+      {
+       "path": "guides/tools/jwebserver.md",
+       "label": "O Comando jwebserver"
+      },
+      {
+       "path": "guides/tools/keytool.md",
+       "label": "O Comando keytool"
+      },
+      {
+       "path": "guides/tools/kinit.md",
+       "label": "O Comando kinit"
+      },
+      {
+       "path": "guides/tools/klist.md",
+       "label": "O Comando klist"
+      },
+      {
+       "path": "guides/tools/ktab.md",
+       "label": "O Comando ktab"
+      },
+      {
+       "path": "guides/tools/rmiregistry.md",
+       "label": "O Comando rmiregistry"
+      },
+      {
+       "path": "guides/tools/serialver.md",
+       "label": "O Comando serialver"
+      }
+     ]
+    },
+    {
+     "label": "Troubleshooting",
+     "items": [
+      {
+       "path": "guides/troubleshoot/appendix.md",
+       "label": "Apêndices"
+      },
+      {
+       "path": "guides/troubleshoot/awt.md",
+       "label": "AWT"
+      },
+      {
+       "path": "guides/troubleshoot/command-line-options1.md",
+       "label": "Opções de Linha de Comando"
+      },
+      {
+       "path": "guides/troubleshoot/debug-client-issues.md",
+       "label": "Depurar Problemas do Cliente"
+      },
+      {
+       "path": "guides/troubleshoot/debug-core-library-issues.md",
+       "label": "Depurando Problemas da Biblioteca Central"
+      },
+      {
+       "path": "guides/troubleshoot/debug-jvm-issues.md",
+       "label": "Depurar Problemas da JVM"
+      },
+      {
+       "path": "guides/troubleshoot/diagnostic-tools.md",
+       "label": "Ferramentas de Diagnóstico"
+      },
+      {
+       "path": "guides/troubleshoot/environment-variables-and-system-properties.md",
+       "label": "Variáveis de Ambiente e Propriedades do Sistema"
+      },
+      {
+       "path": "guides/troubleshoot/general-java-troubleshooting.md",
+       "label": "Solução de Problemas Gerais do Java"
+      },
+      {
+       "path": "guides/troubleshoot/handle-signals-and-exceptions.md",
+       "label": "Lidar com Sinais e Exceções"
+      },
+      {
+       "path": "guides/troubleshoot/index.md",
+       "label": "Plataforma Java, Edição Padrão Guia de Solução de Problemas, Release 25"
+      },
+      {
+       "path": "guides/troubleshoot/internationalization.md",
+       "label": "Internacionalização"
+      },
+      {
+       "path": "guides/troubleshoot/introduction-client-issues.md",
+       "label": "Introdução a Problemas de Cliente"
+      },
+      {
+       "path": "guides/troubleshoot/java-2d-pipeline-rendering-selection-and-properties.md",
+       "label": "Seleção e Propriedades de Renderização do Pipeline Java 2D"
+      },
+      {
+       "path": "guides/troubleshoot/java-2d-properties.md",
+       "label": "Propriedades Java 2D"
+      },
+      {
+       "path": "guides/troubleshoot/java-2d.md",
+       "label": "Java 2D"
+      },
+      {
+       "path": "guides/troubleshoot/java-sound.md",
+       "label": "Java Sound"
+      },
+      {
+       "path": "guides/troubleshoot/location-fatal-error-log.md",
+       "label": "Log de Erro Fatal"
+      },
+      {
+       "path": "guides/troubleshoot/preface.md",
+       "label": "Prefácio"
+      },
+      {
+       "path": "guides/troubleshoot/prepare-java-troubleshooting.md",
+       "label": "Prepare o Java para Solução de Problemas"
+      },
+      {
+       "path": "guides/troubleshoot/submit-bug-report.md",
+       "label": "Enviar um Relatório de Bug"
+      },
+      {
+       "path": "guides/troubleshoot/submit-bug-reports.md",
+       "label": "Enviar Relatórios de Erro"
+      },
+      {
+       "path": "guides/troubleshoot/summary-tools-this-release.md",
+       "label": "Resumo das Ferramentas Nesta Versão"
+      },
+      {
+       "path": "guides/troubleshoot/swing.md",
+       "label": "Swing"
+      },
+      {
+       "path": "guides/troubleshoot/time-zone-settings-jre.md",
+       "label": "Configurações de Fuso Horário na JRE"
+      },
+      {
+       "path": "guides/troubleshoot/troubleshoot-performance-issues-using-jfr.md",
+       "label": "Solucionar Problemas de Desempenho Usando o Flight Recorder"
+      },
+      {
+       "path": "guides/troubleshoot/troubleshoot-process-hangs-and-loops.md",
+       "label": "Solucionar Problemas de Processos Travados e em Loop"
+      },
+      {
+       "path": "guides/troubleshoot/troubleshoot-security-apis.md",
+       "label": "Solucionar Problemas de Security APIs"
+      },
+      {
+       "path": "guides/troubleshoot/troubleshoot-system-crashes.md",
+       "label": "Solução de Problemas de Falhas do Sistema"
+      },
+      {
+       "path": "guides/troubleshoot/troubleshooting-memory-leaks.md",
+       "label": "Solucionar Problemas de Vazamentos de Memória"
+      }
+     ]
+    },
+    {
+     "label": "Maquina Virtual",
+     "items": [
+      {
+       "path": "guides/vm/class-data-sharing.md",
+       "label": "Compartilhamento de Dados de Classe"
+      },
+      {
+       "path": "guides/vm/commands-work-directive-files.md",
+       "label": "Comandos para Trabalhar com Arquivos de Diretivas"
+      },
+      {
+       "path": "guides/vm/compiler-control1.md",
+       "label": "Compiler Control"
+      },
+      {
+       "path": "guides/vm/dtrace-probes-hotspot-vm.md",
+       "label": "Probes DTrace na HotSpot VM"
+      },
+      {
+       "path": "guides/vm/error-reporting.md",
+       "label": "Relatório de Erros Fatais"
+      },
+      {
+       "path": "guides/vm/garbage-collection-enhancements.md",
+       "label": "Garbage Collection"
+      },
+      {
+       "path": "guides/vm/index.md",
+       "label": "Plataforma Java, Edição Padrão Guia da Java Virtual Machine, Versão 25"
+      },
+      {
+       "path": "guides/vm/java-hotspot-virtual-machine-performance-enhancements.md",
+       "label": "Aprimoramentos de Desempenho da Java HotSpot Virtual Machine"
+      },
+      {
+       "path": "guides/vm/java-virtual-machine-related-resources.md",
+       "label": "Recursos Relacionados à Java Virtual Machine"
+      },
+      {
+       "path": "guides/vm/java-virtual-machine-technology-overview.md",
+       "label": "Visão Geral da Tecnologia Java Virtual Machine"
+      },
+      {
+       "path": "guides/vm/jvm-apis.md",
+       "label": "APIs da JVM"
+      },
+      {
+       "path": "guides/vm/native-memory-tracking.md",
+       "label": "Rastreamento de Memória Nativa"
+      },
+      {
+       "path": "guides/vm/preface.md",
+       "label": "Prefácio"
+      },
+      {
+       "path": "guides/vm/signal-chaining.md",
+       "label": "Encadeamento de Sinais"
+      },
+      {
+       "path": "guides/vm/support-non-java-languages.md",
+       "label": "Suporte para Linguagens Não-Java"
+      },
+      {
+       "path": "guides/vm/understanding-directives-better.md",
+       "label": "Compreendendo as Diretivas"
+      },
+      {
+       "path": "guides/vm/writing-directives.md",
+       "label": "Escrevendo Diretivas"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "total": 537
+}
